@@ -30,4 +30,4 @@ public class TestandroidActivity extends Activity {
         	
         });
     }
-}//已完成
+}
