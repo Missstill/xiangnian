@@ -11,23 +11,23 @@ public class TestandroidActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //¼ÓÔØ½çÃæ
+        //åŠ è½½ç•Œé¢
         setContentView(R.layout.lianxi);
-        //»ñÈ¡×é¼ş¶ÔÏó
+        //è·å–ç»„ä»¶å¯¹è±¡
          et=(EditText)this.findViewById(R.id.username);
-         //btnÎªÊÂ¼şÔ´
+         //btnä¸ºäº‹ä»¶æº
         Button btn=(Button)this.findViewById(R.id.btn1);
-        //×¢²á¼àÌıÆ÷
-        btn.setOnClickListener(new OnClickListener()//ÄäÃûÀà
+        //æ³¨å†Œç›‘å¬å™¨
+        btn.setOnClickListener(new OnClickListener()//åŒ¿åç±»
         {
 
-		      //µ¥»÷ÊÂ¼ş·½·¨
+		      //å•å‡»äº‹ä»¶æ–¹æ³•
 			public void onClick(View arg0) {
-				//»ñÈ¡×é¼ş¶ÔÏóµÄÖµ
+				//è·å–ç»„ä»¶å¯¹è±¡çš„å€¼
 				String name=et.getText().toString();
-				System.out.println("ĞÕÃû="+name);
+				System.out.println("å§“å="+name);
 			}
         	
         });
     }
-}
+}//å·²å®Œæˆ
